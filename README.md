@@ -1,0 +1,3 @@
+# Implicit Type Handling and Floating-Point Comparisons in Julia
+
+This repository demonstrates a common pitfall in Julia: unexpected behavior when implicit type handling meets floating-point comparisons.  The provided code shows a simple function that squares positive numbers and negates negative numbers. While it seemingly works correctly for integers, it reveals problems when using floating-point values due to potential precision issues in comparisons.
